@@ -1,0 +1,201 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Sachin",
+      "lastName": "Tendulkar",
+      "age": 45
+    },
+    {
+      "id": 2,
+      "firstName": "Alastair",
+      "lastName": "Cook",
+      "age": 37
+    },
+    {
+      "id": 3,
+      "firstName": "Steve",
+      "lastName": "Smith",
+      "age": 32
+    }
+  ],
+
+  "posts": [
+    { "id": 1, "title": "post 1", "userId": 1 },
+    { "id": 1, "title": "post 2", "userId": 1 },
+    { "id": 1, "title": "post 3", "userId": 2 }
+  ],
+  "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
+  
+  "ncRectificationRoomList": [
+        {
+            "roomId": "a0d925fb-90e5-11ed-abf1-b44506ab6150",
+            "roomCode": "R4",
+            "roomEnName": "Meat Processing Room + Chiller & Freezer",
+            "roomCnName": "肉类加工房+冷藏室+冷冻室",
+            "isRectified": true,
+            "totalOfNC": 3,
+            "ncRectificationDetailList": [
+                {
+                    "ncDetailId": "85238e03-2ea4-4db3-a188-b2ce5342e565",
+                    "ncDetailRemark": "Remark",
+                    "ncDetailImageList": [
+                        ""
+                    ],
+                    "categoryId": "d1a2960a-8b11-11ed-a1cf-27d3b0f6c1e2",
+                    "categoryCode": "E",
+                    "categoryEnName": "Processing Room (Meat / Seafood / Vegetables / Duck)",
+                    "categoryCnName": "加工房 (肉类 / 海鲜类 / 蔬菜类 / 鸭)",
+                    "subCategoryId": "a0afe657-90e5-11ed-abf1-b44506ab6150",
+                    "subCategoryCode": "E1",
+                    "subCategoryEnName": "Machines - clean, not rusty and in good repair & working condition",
+                    "subCategoryCnName": "机器 – 干净, 没有生锈和操作正常",
+                    "rectificationFormId": "67c5d3f2-9c93-436b-84fe-1913ee0918a6",
+                    "rectificationStatus": "Rectified",
+                    "rectificationRemark": ""
+                },
+                {
+                    "ncDetailId": "a11042e7-00a4-45cb-bd7b-a17d8459414b",
+                    "ncDetailRemark": "",
+                    "ncDetailImageList": [
+                        ""
+                    ],
+                    "categoryId": "d1a2960a-8b11-11ed-a1cf-27d3b0f6c1e2",
+                    "categoryCode": "E",
+                    "categoryEnName": "Processing Room (Meat / Seafood / Vegetables / Duck)",
+                    "categoryCnName": "加工房 (肉类 / 海鲜类 / 蔬菜类 / 鸭)",
+                    "subCategoryId": "a0afe657-90e5-11ed-abf1-b44506ab6150",
+                    "subCategoryCode": "E1",
+                    "subCategoryEnName": "Machines - clean, not rusty and in good repair & working condition",
+                    "subCategoryCnName": "机器 – 干净, 没有生锈和操作正常",
+                    "rectificationFormId": "4327a5d8-baad-4499-80e3-365143edd8a5",
+                    "rectificationStatus": "Rectified",
+                    "rectificationRemark": ""
+                },
+                {
+                    "ncDetailId": "c389e8f9-e673-4da7-9b39-03874d2a8dd0",
+                    "ncDetailRemark": "",
+                    "ncDetailImageList": [
+                        "https://dxe-pms-resources.s3.amazonaws.com/pms-portal/inspection/ncImage/725f79e9afa24b12b2e13e04c0ccff0e.jpeg",
+                        "https://dxe-pms-resources.s3.amazonaws.com/pms-portal/inspection/ncImage/d12805f402f640e993feecbcc6c1cc55.jpeg"
+                    ],
+                    "categoryId": "d1a2960a-8b11-11ed-a1cf-27d3b0f6c1e2",
+                    "categoryCode": "E",
+                    "categoryEnName": "Processing Room (Meat / Seafood / Vegetables / Duck)",
+                    "categoryCnName": "加工房 (肉类 / 海鲜类 / 蔬菜类 / 鸭)",
+                    "subCategoryId": "a0afe657-90e5-11ed-abf1-b44506ab6150",
+                    "subCategoryCode": "E1",
+                    "subCategoryEnName": "Machines - clean, not rusty and in good repair & working condition",
+                    "subCategoryCnName": "机器 – 干净, 没有生锈和操作正常",
+                    "rectificationFormId": "d80b817b-4f9e-44ad-8f51-f12a5f156382",
+                    "rectificationStatus": "Rectified",
+                    "rectificationRemark": ""
+                }
+            ]
+        },
+        {
+            "roomId": "a0d9adc9-90e5-11ed-abf1-b44506ab6150",
+            "roomCode": "R5",
+            "roomEnName": "Packaging Material Store",
+            "roomCnName": "包装材料储藏室",
+            "isRectified": true,
+            "totalOfNC": 1,
+            "ncRectificationDetailList": [
+                {
+                    "ncDetailId": "f58a91d4-1d33-4455-8822-2ba14174e548",
+                    "ncDetailRemark": "Test",
+                    "ncDetailImageList": [
+                        "https://dxe-pms-resources.s3.amazonaws.com/pms-portal/inspection/ncImage/f5f416d13d2c4f65b56201b450e56373.jpeg"
+                    ],
+                    "categoryId": "d1a2960a-8b11-11ed-a1cf-27d3b0f6c1e2",
+                    "categoryCode": "E",
+                    "categoryEnName": "Processing Room (Meat / Seafood / Vegetables / Duck)",
+                    "categoryCnName": "加工房 (肉类 / 海鲜类 / 蔬菜类 / 鸭)",
+                    "subCategoryId": "a0afe657-90e5-11ed-abf1-b44506ab6150",
+                    "subCategoryCode": "E1",
+                    "subCategoryEnName": "Machines - clean, not rusty and in good repair & working condition",
+                    "subCategoryCnName": "机器 – 干净, 没有生锈和操作正常",
+                    "rectificationFormId": "8c483c50-d393-473d-926e-870d51ffb039",
+                    "rectificationStatus": null,
+                    "rectificationRemark": ""
+                }
+            ]
+        },
+        {
+            "roomId": "a0db1e6b-90e5-11ed-abf1-b44506ab6150",
+            "roomCode": "R8",
+            "roomEnName": "Washing Area + Refuse Chute + Chemical Room",
+            "roomCnName": "洗碗区+垃圾槽+化学用品室",
+            "isRectified": true,
+            "totalOfNC": 2,
+            "ncRectificationDetailList": [
+                {
+                    "ncDetailId": "b6ee2f50-3323-4fb4-b024-d976a3469a62",
+                    "ncDetailRemark": "Test",
+                    "ncDetailImageList": [
+                        ""
+                    ],
+                    "categoryId": "d1a3252a-8b11-11ed-a1cf-27d3b0f6c1e2",
+                    "categoryCode": "G",
+                    "categoryEnName": "Corridor / Receiving Area / Dishwashing area",
+                    "categoryCnName": "走廊 / 收货区 / 清洗区",
+                    "subCategoryId": "a0bb0647-90e5-11ed-abf1-b44506ab6150",
+                    "subCategoryCode": "G6",
+                    "subCategoryEnName": "Stock in good condition. No damaged / bulging / leaking goods, torn packaging etc.",
+                    "subCategoryCnName": "货物处于良好状态。无损坏/膨胀/泄漏包装等",
+                    "rectificationFormId": "a9f06806-1b90-4736-a359-a63f294ef663",
+                    "rectificationStatus": "Rectified",
+                    "rectificationRemark": ""
+                },
+                {
+                    "ncDetailId": "c0c8871b-5dc0-4e75-9903-be4f70a46e89",
+                    "ncDetailRemark": "Test",
+                    "ncDetailImageList": [
+                        "https://dxe-pms-resources.s3.amazonaws.com/pms-portal/inspection/ncImage/0423c1db6c784b2b98011df363873cb8.jpeg",
+                        "https://dxe-pms-resources.s3.amazonaws.com/pms-portal/inspection/ncImage/2e42cf2a439843b2867f2ae0bba9692b.jpeg"
+                    ],
+                    "categoryId": "d1a3252a-8b11-11ed-a1cf-27d3b0f6c1e2",
+                    "categoryCode": "G",
+                    "categoryEnName": "Corridor / Receiving Area / Dishwashing area",
+                    "categoryCnName": "走廊 / 收货区 / 清洗区",
+                    "subCategoryId": "a0bb0647-90e5-11ed-abf1-b44506ab6150",
+                    "subCategoryCode": "G6",
+                    "subCategoryEnName": "Stock in good condition. No damaged / bulging / leaking goods, torn packaging etc.",
+                    "subCategoryCnName": "货物处于良好状态。无损坏/膨胀/泄漏包装等",
+                    "rectificationFormId": "408fe83c-2ab8-441f-90b4-e0e7a7a06541",
+                    "rectificationStatus": "Rectified",
+                    "rectificationRemark": ""
+                }
+            ]
+        },
+        {
+            "roomId": "a0d82a94-90e5-11ed-abf1-b44506ab6150",
+            "roomCode": "R2",
+            "roomEnName": "Corridor + Changing Room + Toilet",
+            "roomCnName": "走廊+更衣室+厕所",
+            "isRectified": true,
+            "totalOfNC": 1,
+            "ncRectificationDetailList": [
+                {
+                    "ncDetailId": "1e25f7fe-1885-4ab9-8006-9a924d89f443",
+                    "ncDetailRemark": "Items stored at least 6\nTest description",
+                    "ncDetailImageList": [
+                        ""
+                    ],
+                    "categoryId": "7e9e9342-8b10-11ed-a1cf-27d3b0f6c1e2",
+                    "categoryCode": "A",
+                    "categoryEnName": "Environment",
+                    "categoryCnName": "环境",
+                    "subCategoryId": "a0a257ed-90e5-11ed-abf1-b44506ab6150",
+                    "subCategoryCode": "A1",
+                    "subCategoryEnName": "No evidence of pest infestation (rodents, cockroaches, insects, ants etc.) ",
+                    "subCategoryCnName": "没有害虫繁殖 (老鼠，蟑螂，昆虫，蚂蚁等)",
+                    "rectificationFormId": "b2c090d1-1034-447f-bb16-67369c1964ad",
+                    "rectificationStatus": null,
+                    "rectificationRemark": ""
+                }
+            ]
+        }
+  ]
+
+}
